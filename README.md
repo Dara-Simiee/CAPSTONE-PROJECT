@@ -1,6 +1,14 @@
-# CAPSTONE-PROJECT 
+# CAPSTONE-PROJECT 1
 
 ## PROJECT TITLE - RETAIL STORE SALES PERFORMANCE ANALYSIS.
+---
+### OUTLINE
+[PROJECT.OVERVIEW](#PROJECT OVERVIEW)
+[DATA.SOURCE](#DATA SOURCE)
+[TOOLS](#TOOLS)
+[DATA.EXPLORATION.AND.PREPARATION](#DATA EXPLORATION AND PREPARATION)
+
+
 
 ## PROJECT OVERVIEW :
 In this project i was tasked with conducting a comprehensive analysis of the sales performance of a retail store. The goal was to extract actionable insights that could inform marketing strategies, inventory management and overall business performance.
@@ -85,6 +93,79 @@ Based on the analysis of the retail store’s sales performance, I have outlined
 
 	•	Feedback Mechanism: Implement a feedback system for customers to gather insights on their preferences and experiences. This can help tailor product offerings and improve customer satisfaction.
 
+
+
+---
+# CAPSTONE PTOJECT 2
+
+## PROJECT TITLE: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE
+
+## PROJECT OVERVIEW: 
+The goal of this project is to analyze customer data for a subscription service to identify customer segments, understand behavior, track subscription types, and analyze key trends related to cancellations and renewals. The final deliverable is an interactive Power BI dashboard that visually presents the analysis and insights.
+
+## TOOLS.
+	•	Microsoft Excel
+	•	SQL
+	•	Power BI
+
+## ANALYSIS OVERVIEW:
+1. **Excel Analysis:**
+Conducted a comprehensive analysis of customer data using Excel:
+	•	Pivot Tables: Utilized pivot tables to uncover subscription patterns, such as the distribution of different subscription types and customer demographics.
+![PIVOT TABLE PROJECTT 2](https://github.com/user-attachments/assets/b7d668b3-14ca-4599-89e1-c3e1e01ed5ac)
+![PIVOT TABLE PROJECT 2](https://github.com/user-attachments/assets/46134433-5d0d-4d69-84e4-4b46645e5620)
+
+	•	Average Subscription Duration: Calculated the average duration of subscriptions across different segments to identify trends in customer retention.
+![SUBSCRIPTION DURATION EXCEL](https://github.com/user-attachments/assets/8489ee66-fe07-48cb-972f-8fb0f6a83e4b)
+
+	•	Most Popular Subscription Types: Identified the most frequently chosen subscription types to understand customer preferences and inform marketing strategies.
+![PIVOT TABLE PROJECT 2](https://github.com/user-attachments/assets/884e4d41-020c-4071-97f3-d7c304ef3c09)
+
+
+2. **SQL Queries:**
+![SQL PROJECT 2 ii](https://github.com/user-attachments/assets/03c8b75d-cf97-446a-8dc5-851a20a44dd8)
+![SQL PROJECT 2 i](https://github.com/user-attachments/assets/7c7971b2-c955-42ab-b675-fec47d15b1dd)
+
+Loaded the customer dataset into the SQL Server environment to perform the following analyses:
+	•	Total Customers by Region: Wrote queries to retrieve the total number of customers from each region, helping to identify geographic trends.
+	•	Most Popular Subscription Type: Determined the most popular subscription type based on the number of customers, which is crucial for targeted marketing efforts.
+![sql project 2 (1   2)](https://github.com/user-attachments/assets/d6f332fc-7612-4b8d-ba01-c74569e4b33d)
+
+	•	Canceled Subscriptions within 6 Months: Identified customers who canceled their subscriptions within the first six months, providing insights into potential issues with customer satisfaction or onboarding.
+	•	Average Subscription Duration: Calculated the average subscription duration for all customers, which helps gauge overall retention rates.
+![sql project 2 (3   4)](https://github.com/user-attachments/assets/5dd03056-ff45-41e6-b4fc-0f7306363192)
+
+	•	Longer Subscriptions: Found customers with subscriptions longer than 12 months to identify loyal segments.
+	•	Total Revenue by Subscription Type: Analyzed revenue generation by subscription type to assess the financial performance of each offering.
+![sql project 2 (5   6)](https://github.com/user-attachments/assets/a5dc107b-aa66-4b0b-84ec-186fc283e406)
+
+	•	Top 3 Regions by Cancellations: Identified regions with the highest subscription cancellation rates, allowing for targeted retention strategies.
+	•	Active vs. Canceled Subscriptions: Calculated the total number of active and canceled subscriptions to assess overall business health.
+![sql project 2 (7   8)](https://github.com/user-attachments/assets/10ae5c37-64e7-4b56-bb97-b270043aac57)
+
+
+3. **Power BI Visualization:**
+Developed a comprehensive Power BI dashboard to visualize key insights derived from the Excel and SQL analyses. The dashboard includes:
+	•	Customer Segmentation: Visuals that categorize customers by demographics and subscription types.
+![CUSTOMER SEGMENTATION](https://github.com/user-attachments/assets/fd991fb9-57f7-4f5a-8cd3-70e8794ea317)
+
+	•	Cancellation Trends: Charts illustrating cancellation rates and trends over time, enabling better understanding of customer churn.
+![CANCELLATION TRENDS](https://github.com/user-attachments/assets/c2713b39-40af-49f6-964b-c02212d6a761)
+
+	•	Subscription Trends: Insights into subscription growth and retention, with slicers for interactive analysis, allowing stakeholders to explore data by different dimensions.
+![SUBSCRIPTION TRENDS](https://github.com/user-attachments/assets/40c907aa-b116-4bce-84ad-e0f15c66e158)
+
+
+## KEY INSIGHTS AND IMPLICATIONS:
+	•	Customer Segments: The analysis revealed distinct customer segments based on subscription type and duration, which can inform targeted marketing strategies and customer engagement initiatives.
+	•	High Cancellation Rates: Identifying regions with the highest cancellation rates prompts a closer examination of customer feedback and service improvements in those areas.
+	•	Popular Subscription Types: Insights into the most popular subscription types can guide future product development and promotional efforts, ensuring alignment with customer preferences.
+	•	Revenue Insights: Understanding revenue contributions from different subscription types allows for better financial planning and resource allocation.
+
+## RECOMMENDATIONS:
+	•	Enhanced Onboarding Process: For customers who cancel within six months, consider implementing an enhanced onboarding experience to improve satisfaction and retention.
+	•	Targeted Marketing Campaigns: Utilize insights from the segmentation analysis to create tailored marketing campaigns aimed at specific customer groups, particularly in regions with high cancellation rates.
+	•	Regular Monitoring: Establish a routine for ongoing analysis of subscription data to adapt strategies in real-time based on emerging trends and customer feedback.
 
 
 
